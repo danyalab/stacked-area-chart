@@ -11,7 +11,7 @@ df['Date'] = pd.to_datetime(df['Date'])
 st.title('Asset Class Weights Dashboard')
 # Add subtitle explaining the chart convention
 st.markdown(
-    "<h4 style='margin-top:0;'>Anything over 100% is actually a negative allocation for that asset class, shown as such for stacked area chart convention.</h4>",
+    "<h4 style='margin-top:0;'>Anything over 100% is actually a negative allocation for cash, shown as such for stacked area chart convention.</h4>",
     unsafe_allow_html=True
 )
 
