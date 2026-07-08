@@ -1,0 +1,15 @@
+# Python caches
+__pycache__/
+*.py[cod]
+
+# Local virtual environments
+.venv/
+venv/
+
+# Generated output
+asset_allocation_summary.png
+
+# OS/editor files
+.DS_Store
+.idea/
+.vscode/
